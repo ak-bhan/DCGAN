@@ -8,7 +8,7 @@ The dataset used in this project is the [Anime Faces dataset](https://www.kaggle
 The network architecture closely follows the Deep Convolutional Generative Adversarial Networks (DCGAN) described in the research paper titled ["Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"](https://arxiv.org/pdf/1511.06434.pdf) by Radford et al. The implementation follows the structure outlined in the paper to generate anime character faces.
 
 ### Technical Highlights
-1. **Generator Network:** The generator network employs transposed convolutional layers to upsample the initial noise vector, generating synthetic anime character faces that closely resemble those in the dataset.
+1. **Generator Network:** The generator network employs convolutional layers, generating synthetic anime character faces that closely resemble those in the dataset.
 
 2. **Discriminator Network:** The discriminator network distinguishes between real and generated images using convolutional layers, continuously improving its ability to discern real from fake.
 
